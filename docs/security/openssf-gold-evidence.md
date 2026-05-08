@@ -47,6 +47,10 @@ Use the following replacements for stale badge evidence.
 | `bus_factor` | `https://github.com/jaegertracing/jaeger/blob/main/MAINTAINERS.md` and `https://github.com/jaegertracing/jaeger/blob/main/GOVERNANCE.md` |
 | `contributors_unassociated` | GitHub contributors and maintainers from multiple organizations; use `https://github.com/jaegertracing/jaeger/graphs/contributors`, `https://github.com/jaegertracing/jaeger/blob/main/MAINTAINERS.md`, and CNCF project governance evidence. |
 | `small_tasks` | `https://github.com/jaegertracing/jaeger/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22good%20first%20issue%22` and `https://github.com/jaegertracing/jaeger/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22help%20wanted%22` |
+| `require_2FA` | `https://github.com/jaegertracing/jaeger/blob/main/GOVERNANCE.md#maintainer-account-security` |
+| `secure_2FA` | `https://github.com/jaegertracing/jaeger/blob/main/GOVERNANCE.md#maintainer-account-security` |
+| `code_review_standards` | `https://github.com/jaegertracing/jaeger/blob/main/CONTRIBUTING.md#code-review-requirements` |
+| `two_person_review` | `https://github.com/jaegertracing/jaeger/blob/main/CONTRIBUTING.md#code-review-requirements` |
 | `test_invocation` | `https://github.com/jaegertracing/jaeger/blob/main/CONTRIBUTING.md#getting-started` and `https://github.com/jaegertracing/jaeger/blob/main/Makefile` |
 | `test_continuous_integration` | `https://github.com/jaegertracing/jaeger/actions/workflows/ci-orchestrator.yml?query=branch%3Amain` and `https://github.com/jaegertracing/jaeger/blob/main/.github/workflows/README.md` |
 | `security_review` | Historical public audits are available at `https://github.com/jaegertracing/security-audits`; current-within-5-years evidence is tracked by issue `https://github.com/jaegertracing/jaeger/issues/8485`. |
@@ -57,9 +61,7 @@ The following criteria need more than URL refresh and are tracked by the Gold ba
 
 | Area | Tracking issue |
 | --- | --- |
-| Code review requirements and maintainer 2FA policy | `https://github.com/jaegertracing/jaeger/issues/8486` |
 | Per-file copyright and SPDX compliance | `https://github.com/jaegertracing/jaeger/issues/8487` |
 | Newcomer task maintenance | `https://github.com/jaegertracing/jaeger/issues/8483` |
 | Reproducible build, coverage, hardened headers, and dynamic analysis | `https://github.com/jaegertracing/jaeger/issues/8484` |
 | Current security review evidence | `https://github.com/jaegertracing/jaeger/issues/8485` |
-
